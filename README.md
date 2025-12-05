@@ -56,7 +56,7 @@ google-ai-trendspotting/
 ##  Contributor Team
 - **Alison Zou** — [GitHub](https://github.com/azzou02)
 - **Neeju Singh** — [GitHub](https://github.com/NEEJUSINGH)
-- **Namyuktha Prakash** — [GitHub](https://github.com/)
+- **Namyuktha Prakash** — [GitHub](https://github.com/namyuktha-prakash)
 - **Aadhi Sivakumar** — [GitHub](https://github.com/aadhi-sivakumar)
 - **Fatima Atif** — [GitHub](https://github.com/fatimaagit)
 - **Angela Martinez** — [GitHub](https://github.com/)

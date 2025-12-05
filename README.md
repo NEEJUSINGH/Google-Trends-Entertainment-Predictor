@@ -17,7 +17,7 @@ The goal is to help businesses, researchers, and policymakers make **data-driven
 - Collect and preprocess Google Trends data.
 - Engineer features that capture trend growth and patterns.
 - Experiment with ML models to classify and predict trend trajectories.
-- Deliver insights in a clear, actionable format.
+- Deliver insights in a clear, actionable format on Streamlit.
 
 ---
 
@@ -50,15 +50,6 @@ google-ai-trendspotting/
 - **Source:** [Google Trends](https://trends.google.com/)
 - **Type:** Time-series & text
 - **Features:** Trend keyword, search volume, region, category, timestamps
-
----
-
-##  Project Timeline
-| Milestone | Target Date | Description |
-|-----------|------------|-------------|
-| Milestone 1 | 9/30 | Data collection, preprocessing, EDA |
-| Milestone 2 | 10/31 | Build & evaluate initial ML models |
-| Milestone 3 | 11/30 | Finalize model, document results, presentation |
 
 ---
 

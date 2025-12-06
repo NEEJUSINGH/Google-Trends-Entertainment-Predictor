@@ -6,12 +6,12 @@
 
 | Name             | University | GitHub | Contribution                                                             |
 |------------------|------------|---------------|--------------------------------------------------------------------------|
-| Vidula Alla      | UW-Madison |  | Data exploration, visualization, overall project coordination|
-| Fatima Atif      | UT San Antonio|      | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Angela Martinez  | UT El Paso | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Namyuktha Prakash| UT Dallas  | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Neeju Singh      | Metropolitan State | @chrispark    | Model evaluation, performance analysis, results interpretation           |
-| Aadhi Sivakumar  | UT Dallas  | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Vidula Alla      | UW-Madison | [Vidula GitHub](https://github.com/vidulaalla26) | Data exploration, visualization, overall project coordination|
+| Fatima Atif      | UT San Antonio| [Fatima GitHub](https://github.com/fatimaagit)      | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Angela Martinez  | UT El Paso | [Angela GitHub](https://github.com/) | Data preprocessing, feature engineering, data validation                 |
+| Namyuktha Prakash| UT Dallas  | [Namyuktha GitHub](https://github.com/namyuktha-prakash)| Model selection, hyperparameter tuning, model training and optimization  |
+| Neeju Singh      | Metropolitan State | [ Neeju GitHub](https://github.com/NEEJUSINGH)    | Model evaluation, performance analysis, results interpretation           |
+| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Model evaluation, performance analysis, results interpretation           |
 | Alison Zou       | Vanderbilt | [Alison Github](https://github.com/azzou02)  | Model evaluation, performance analysis, results interpretation           |
 
 ### **AI Studio Coach:** Haziel Ayala  
@@ -200,3 +200,4 @@ We extend our heartfelt gratitude to:
 
 - **Haziel Ayala**, our AI Studio Coach, for invaluable guidance throughout the project lifecycle
 - **Sarah Tan** and **Hunter Saine**, our Google Challenge Advisors, for sharing industry insights and technical expertise
+- **Google** and the **Break Through Tech AI Program** for providing this incredible learning opportunity

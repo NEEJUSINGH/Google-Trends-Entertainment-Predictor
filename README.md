@@ -11,7 +11,7 @@
 | Angela Martinez  | UT El Paso | [Angela GitHub](https://github.com/) | Data preprocessing, feature engineering, data validation                 |
 | Namyuktha Prakash| UT Dallas  | [Namyuktha GitHub](https://github.com/namyuktha-prakash)| Model selection, hyperparameter tuning, model training and optimization  |
 | Neeju Singh      | Metropolitan State | [ Neeju GitHub](https://github.com/NEEJUSINGH)    | Model evaluation, performance analysis, results interpretation           |
-| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Model evaluation, performance analysis, results interpretation           |
+| Aadhi Sivakumar  | UT Dallas  | [Aadhi GitHub](https://github.com/aadhi-sivakumar)   | Data Preprocessing,  Exploratory Data Analysis (EDA), Streamlit Website           |
 | Alison Zou       | Vanderbilt | [Alison Github](https://github.com/azzou02)  | Model evaluation, performance analysis, results interpretation           |
 
 ### **AI Studio Coach:** Haziel Ayala  
@@ -32,14 +32,93 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+### Prerequisites
+- Python 3.8+
+- Google Colab account (for running notebooks)
+- Code editor (VS Code, PyCharm, etc.) for Streamlit app
+- Internet connection for PyTrends API access
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+---
 
+### **Option 1: Full Pipeline (Complete Process)**
+
+Run `Google_Trends_Movie_Predictor__Final.ipynb` to execute the entire pipeline from data collection to model training.
+
+#### Steps:
+
+1. **Download the notebook**
+   - Download `Google_Trends_Movie_Predictor__Final.ipynb` to your computer
+
+2. **Open Google Colab**
+   - Visit [https://colab.research.google.com/](https://colab.research.google.com/)
+
+3. **Upload the notebook**
+   - In Colab, click on **Upload**
+   - Select the `Google_Trends_Movie_Predictor__Final.ipynb` file from your computer
+
+4. **Change the runtime to T4 GPU**
+   - Click **Runtime** → **Change runtime type** → Select **T4 GPU** from the dropdown menu
+   - Click **Save**
+
+5. **Run the cells**
+   
+   You can either:
+   - Click the **Run (▶️)** button on the left of each cell to run them one by one, OR
+   - Click **Runtime** → **Run all** from the menu bar to execute all cells at once
+
+6. **Execute sequentially**
+   - ⚠️ Make sure you run all cells sequentially from top to bottom
+   - ⚠️ Do not skip any cells, since later parts of the notebook may depend on earlier ones
+   - The notebook will generate `labeled_trends.csv` which is used for model training
+
+---
+
+### **Option 2: Quick Start (Using Pre-labeled Data)**
+
+If you already have `labeled_trends.csv`, you can skip the data collection process and go straight to model training.
+
+#### Steps:
+
+1. **Download and upload the notebook**
+   - Download `live_prediction_model.ipynb` to your computer
+   - Upload to Google Colab (same process as Option 1)
+
+2. **Run the notebook**
+   - Execute all cells sequentially
+   - This notebook skips the data collection process and uses the pre-labeled data
+
+---
+
+### **Running the Streamlit Dashboard**
+
+To launch the interactive web application:
+
+#### Steps:
+
+1. **Clone the repository**
+```bash
+git clone
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Verify the dataset**
+   - ⚠️ Ensure `labeled_trends.csv` is present in your project directory
+   - If not, run one of the notebooks above to generate it
+
+4. **Run the Streamlit app**
+```bash
+streamlit run streamlit_app.py
+```
+
+5. **Access the dashboard**
+   - The app will open automatically in your default browser
+   - If not, navigate to the URL shown in the terminal (typically `http://localhost:8501`)
+
+---
 ---
 
 ## 🏗️ **Project Overview**

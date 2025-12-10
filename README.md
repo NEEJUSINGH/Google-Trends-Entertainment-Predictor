@@ -97,11 +97,12 @@ To launch the interactive web application:
 
 1. **Clone the repository**
 ```bash
-git clone
+git clone https://github.com/NEEJUSINGH/Google-Trends-Entertainment-Predictor.git
 ```
 
 2. **Install dependencies**
 ```bash
+cd Google-Trends-Entertainment-Predictor
 pip install -r requirements.txt
 ```
 
